@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGrid", "MathGrid\MathGrid.csproj", "{90BF4046-3DB2-497B-B802-2D4735FF21B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content", "Content\Content.csproj", "{A924317A-E243-4B94-9384-0FF4F90039BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BF4046-3DB2-497B-B802-2D4735FF21B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A924317A-E243-4B94-9384-0FF4F90039BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A924317A-E243-4B94-9384-0FF4F90039BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A924317A-E243-4B94-9384-0FF4F90039BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A924317A-E243-4B94-9384-0FF4F90039BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
