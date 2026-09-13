@@ -8,7 +8,12 @@
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="FontStashSharp.MonoGame" Version="1.6.0" />
         <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*"/>
+        <PackageReference Include="MonoGame.Extended" Version="6.1.1" />
         <PackageReference Include="MonoGame.Framework.Android" Version="3.8.*"/>
+    </ItemGroup>
+    <ItemGroup>
+      <AndroidAsset Include="Fonts\Nunito.ttf" />
     </ItemGroup>
 </Project>
