@@ -18,12 +18,15 @@ public class Grid
 
     public int Width { get; }
     public int Height { get; }
+    
+    public Dozen Dozen { get; }
 
-    public Grid(Vector2 position, int width, int height, SpriteFontBase font)
+    public Grid(Vector2 position, int width, int height, SpriteFontBase font, Dozen dozen)
     {
         Position = position;
         Width = width;
         Height = height;
+        Dozen = dozen;
 
         this.font = font;
 
@@ -33,7 +36,7 @@ public class Grid
         {
             for (int y = 0; y < height; y++)
             {
-                cells[x, y] = new Cell(y * width + x + 1);
+                cells[x, y] = new Cell(y * width + x + 1 + (int) dozen * 10);
             }
         }
     }

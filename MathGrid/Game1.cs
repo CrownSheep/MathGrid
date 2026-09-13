@@ -51,7 +51,7 @@ public class Game1 : Game
         }
 
         font = fontSystem.GetFont(Grid.CELL_SIZE - 20);
-        grid = new Grid(new Vector2(200, 250), 3, 3, font);
+        grid = new Grid(new Vector2(200, 250), 3, 3, font, Dozen.Ten);
     }
 
     protected override void Update(GameTime gameTime)
